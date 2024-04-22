@@ -39,3 +39,4 @@ function setupMap(center) {
     // Add the directions control to the map, positioned at the top-left corner
     map.addControl(directions, 'top-left');
 }
+
