@@ -31,9 +31,9 @@ function setupMap(center) {
     // Add the navigation control to the map
     map.addControl(nav);
 
-    // Create a directions control instance
+    // Create a directions control    instance
     var directions = new MapboxDirections({
-        accessToken: mapboxgl.accessToken // Set the access token for the directions control
+        accessToken: mapboxgl.accessToken // 
     });
 
     // Add the directions control to the map, positioned at the top-left corner
